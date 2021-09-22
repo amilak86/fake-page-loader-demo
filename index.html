@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title>Fake Page Loader Demo</title>
+	<link rel="stylesheet" href="fakeLoader.css">	
+</head>
+<body>
+	<div id="fakeLoader"></div>
+
+	<h1>Fake Page Loader</h1>
+	<img src="http://deelay.me/5000/http://localhost/fakeloadertest/bg3.jpg">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="fakeLoader.js"></script>
+	<script type="text/javascript">
+		$("#fakeLoader").fakeLoader({
+			spinner: 'spinner1',
+			bgColor: '#333'
+		});
+	</script>
+</body>
+</html>
